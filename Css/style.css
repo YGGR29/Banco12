@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    height: 100vh;
+}
+
+.inicio{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%, -60%);
+    padding: 70px 30px;
+}
+
+.inicio .avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+}
+
+.inicio h4{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
