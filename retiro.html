@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+        }
+
+        .left-options,
+        .right-options {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+        }
+
+        .btn {
+            font-size: 16px;
+            padding: 15px 30px;
+            margin-bottom: 10px;
+            background-color: #280588;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn.cancel {
+            background-color: #66707c;
+        }
+
+        .btn.custom {
+            background-color: #66707c;
+        }
+
+        .btn:hover {
+            background-color: #280588;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="Imagenes/logo.png" alt="Logo"></div> <div class="message">  <p>Seleccione la opción del valor que desea retirar:</p>
+        </div>
+        <div class="options">
+            <div class="left-options">
+                <button class="btn">20.000</button>
+                <button class="btn">50.000</button>
+                <button class="btn">80.000</button>
+                <button class="btn cancel">Cancelar</button>
+            </div>
+            <div class="right-options">
+                <button class="btn">120.000</button>
+                <button class="btn">250.000</button>
+                <button class="btn">400.000</button>
+                <button class="btn custom">Digite otro valor...</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
